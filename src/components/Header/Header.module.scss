@@ -1,0 +1,36 @@
+.content {
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  padding: 4px 16px;
+  border-radius: 4px;
+  background: white;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  &__label {
+    display: inline-block;
+    margin-right: 4px;
+    font-weight: bold;
+  }
+  &__separator {
+    margin: 0 8px;
+  }
+}

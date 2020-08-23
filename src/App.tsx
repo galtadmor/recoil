@@ -1,8 +1,18 @@
 import React from 'react';
 
-const App = () => {
+import { Header, ProductsGrid, AddToCart } from 'components';
+
+import styles from './App.module.scss';
+
+const App: React.FC<{}> = () => {
   return (
-    <div>Recoil</div>
+    <div>
+      <Header />
+      <div className={styles.content}>
+        <ProductsGrid />
+        <AddToCart />
+      </div>
+    </div>
   );
 }
 
